@@ -20,7 +20,7 @@ resource "aws_subnet" "PublicSubnet" {
   }
   map_public_ip_on_launch = true
 }
-
+/*
 resource "aws_subnet" "PrivateSubnet" {
   vpc_id                  = aws_vpc.Trial-VPC-1.id
   cidr_block              = "10.0.2.0/24"
@@ -80,4 +80,5 @@ resource "aws_main_route_table_association" "Main-Route-Table-Association-1" {
   route_table_id = aws_route_table.RTB-12.id
 }
 
+*/
 
